@@ -103,8 +103,8 @@ border-radius: 100%;
 
   .magnaPortaMaximus-text::before {
     content: "";
-    background: url("https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
-/*     background-image: url("asstes/images/uzivancija.JPG"); */
+    
+    background-image: url("asstes/images/uzivancija.JPG");
     
     background-size: auto;
     position: absolute;
