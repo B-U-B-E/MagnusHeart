@@ -104,7 +104,7 @@ border-radius: 100%;
   .magnaPortaMaximus-text::before {
     content: "";
     
-    background-image: url("asstes/images/uzivancija.JPG");
+    background-image: url("asstes/images/uzivancija.jpg");
     
     background-size: auto;
     position: absolute;
