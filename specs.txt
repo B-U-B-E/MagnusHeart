@@ -1,0 +1,10 @@
+body color:                 #9c9c9c
+white color:                #fff
+lightgrey color:            #f4f4f4
+black color:                #000
+headings colors:            #444
+hover colors (red):         #ef6480
+input border colors footer: #d9d9d9
+
+body font family (paragraphs): monospace
+headings font family:          fantasy

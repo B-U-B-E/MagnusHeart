@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+
+
+  body {
+    background-color: #000000;
+    text-align: center;
+
+
+  }
+
+    .facebookBubeHover:hover {
+      background-color: #6767ff;
+border-radius: 100%;
+    box-shadow: 0 0 3px 3px #fff inset;
+
+  }
+
+  .break {
+    display: block;
+  }
+
+  p {
+    font-family: monospace;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 25px;
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+
+
+  h1 {
+    font-family: fantasy;
+    position: relative;
+    max-width: 300px;
+    font-size: 23px;
+    margin: 10px auto;
+  }
+
+
+
+  .magnaPortaMaximus {
+    background-color: #f4f4f4;
+    padding: 50px 0px;
+
+
+  }
+
+  .logoImg {
+    max-width: 300px;
+    margin: 0 auto;
+
+
+  }
+
+  .logoImg img {
+    width: 100%;
+    z-index: 999;
+    position: relative;
+
+  }
+
+  .magnaPortaMaximus-text {
+    color: #000;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    position: relative;
+    z-index: 999;
+    text-shadow: 0 1px 10px wheat;
+    font-weight: bold;
+
+
+
+  }
+
+  .magnaPortaText {
+    border: 3px dashed rgba(0, 0, 0, 0.3);
+  }
+
+  .magnaPortaText::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    opacity: 0.3;
+
+
+  }
+
+  .textAndImg {
+    min-height: 300px;
+  }
+
+  .magnaPortaMaximus-text::before {
+    content: "";
+    /* background: url("https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg"); */
+    background-image: url("asstes/images/uzivancija.jpg");
+    background-attachment: scroll;
+    background-size: auto;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    display: inline-block;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  .btn {
+    padding-top: 10px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 13px;
+    border: 3px dashed #0000004d;
+    border-top: none;
+  }
+
+  .btn a::before {
+
+    content: "";
+    background-color: white;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    opacity: 0.3;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+
+
+  }
+
+  .magnaPortaMaximus a:nth-child(1) {
+    text-decoration: none;
+
+    padding: 10px 30px;
+    color: #000;
+
+  }
+
+
+
+  .projects {
+    background-color: #fff;
+
+  }
+
+  .projectText {
+    width: 80%;
+    background: #fff;
+    margin: 50px auto;
+    border: 5px solid #000;
+    display: inline-block;
+  }
+
+  .magnaPortaMaximusPLUSprojects {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header h1 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    /* text-shadow: 0px 1px #f4f4f4; */
+  }
+
+  .header {
+
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+  .header h1:after {
+    content: "";
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  div.header:first-of-type p {
+    color: #fff;
+    max-width: 300px;
+
+  }
+
+  .subscribe h1,
+  .subscribe p,
+  .form label {
+    color: #fff;
+    display: block;
+    padding-top: 20px;
+
+  }
+
+  .subscribe p {
+    max-width: 240px;
+    margin-bottom: 20px;
+
+  }
+
+  input[type="submit"] {
+    padding: 5px;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 0 0 11px 0 black inset;
+    display: block;
+    margin-top: 20px;
+
+  }
+
+  .form {
+    display: inline-block;
+    padding: 30px 60px;
+    background-color: #5a5555;
+    border-radius: 10px;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .form input {
+    width: 225px;
+    height: 40px;
+
+  }
