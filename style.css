@@ -35,7 +35,7 @@
 
 @media(max-width:23em){
     h1{
-        font-size:13px;
+        font-size:13px !important;
     }
 }
 
