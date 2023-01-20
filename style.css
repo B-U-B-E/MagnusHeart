@@ -88,9 +88,6 @@
 
 
   }
-.socialIcons a{
-    text-decoration:none;
-}
 
   .magnaPortaText {
     border: 3px dashed rgba(0, 0, 0, 0.3);
@@ -220,6 +217,7 @@
     color: #fff;
     display: block;
     
+    
 
   }
 
@@ -230,22 +228,30 @@
   }
 
   input[type="submit"] {
-    
-    /* margin: 0 auto; */
-    border: none;
-    box-shadow: 0 0 11px 0 black inset;
-    margin: 20px 0 20px 0;
-    text-shadow: 48px 3px 4px;
+    margin: 20px auto;
     font-weight: bold;
-
+    box-shadow: 0 0 0px 3px white inset;
+    border: none;
+    background: none;
+    color: white;
+    border-radius: 10px;
+   
   }
 
  
 
   .form input {
-    width: 100%;
-    max-width: 300px;
-    min-height: 50px;
-    
+  
+    min-width: 100%;
+    height: 50px;
 
   }
+
+  form{
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+
+  /* ej fuck offf tracer te slusam stoko idi ebi ja taa kurvata do tebe ne zamaraj. */
