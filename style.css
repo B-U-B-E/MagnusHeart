@@ -217,6 +217,7 @@
     color: #fff;
     display: block;
     
+    
 
   }
 
@@ -231,7 +232,7 @@
     /* margin: 0 auto; */
     border: none;
     box-shadow: 0 0 11px 0 black inset;
-    
+    margin: 20px 0 20px 0;
     margin-top: 20px;
     text-shadow: 48px 3px 4px;
     font-weight: bold;
