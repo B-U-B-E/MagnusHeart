@@ -227,18 +227,18 @@
   }
 
   input[type="submit"] {
-    padding: 5px;
-    margin: 0 auto;
+    
+    /* margin: 0 auto; */
     border: none;
     box-shadow: 0 0 11px 0 black inset;
-    display: block;
+    
     margin-top: 20px;
     text-shadow: 48px 3px 4px;
     font-weight: bold;
 
   }
 
-  
+ 
 
   .form input {
     width: 100%;
