@@ -88,6 +88,9 @@
 
 
   }
+.socialIcons a{
+    text-decoration:none;
+}
 
   .magnaPortaText {
     border: 3px dashed rgba(0, 0, 0, 0.3);
