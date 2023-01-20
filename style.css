@@ -211,6 +211,10 @@
 
   }
 
+  .socialIcons a{
+    text-decoration: none;;
+  }
+
   .subscribe h1,
   .subscribe p,
   .form label {
