@@ -13,8 +13,8 @@
   }
 
     .facebookBubeHover:hover {
-      background-color: #6767ff;
-border-radius: 100%;
+    background-color: #6767ff;
+    border-radius: 100%;
     box-shadow: 0 0 3px 3px #fff inset;
 
   }
@@ -38,7 +38,6 @@ border-radius: 100%;
   h1 {
     font-family: fantasy;
     position: relative;
-    max-width: 300px;
     font-size: 23px;
     margin: 10px auto;
   }
@@ -47,7 +46,7 @@ border-radius: 100%;
 
   .magnaPortaMaximus {
     background-color: #f4f4f4;
-    padding: 50px 0px;
+    padding: 50px 100px;
 
 
   }
@@ -71,7 +70,6 @@ border-radius: 100%;
     background-color: #fff;
     width: 80%;
     margin: 0 auto;
-    padding: 50px 0px;
     position: relative;
     z-index: 999;
     text-shadow: 0 1px 10px wheat;
@@ -99,7 +97,7 @@ border-radius: 100%;
   }
 
   .textAndImg {
-    min-height: 300px;
+    min-height: 100%;
   }
 
   .magnaPortaMaximus-text::before {
@@ -157,11 +155,12 @@ border-radius: 100%;
 
   .projects {
     background-color: #fff;
+    padding: 50px 100px;
 
   }
 
   .projectText {
-    width: 80%;
+    width: 100%;
     background: #fff;
     margin: 50px auto;
     border: 5px solid #000;
@@ -169,7 +168,7 @@ border-radius: 100%;
   }
 
   .magnaPortaMaximusPLUSprojects {
-    width: 80%;
+
     margin: 0 auto;
   }
 
@@ -182,7 +181,7 @@ border-radius: 100%;
 
   .header {
 
-    width: 100%;
+
     margin: 0 auto;
   }
 
