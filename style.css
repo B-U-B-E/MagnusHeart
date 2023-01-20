@@ -33,12 +33,16 @@
     margin: 0 auto;
   }
 
-
+@media(max-width:20em){
+    h1{
+        font-size:13px;
+    }
+}
 
   h1 {
     font-family: fantasy;
     position: relative;
-    font-size: 18px;
+    font-size: 23px;
     margin: 10px auto;
   }
 
