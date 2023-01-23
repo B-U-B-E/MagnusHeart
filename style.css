@@ -225,7 +225,7 @@
 
   .subscribe p {
     max-width: 240px;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
 
   }
 
